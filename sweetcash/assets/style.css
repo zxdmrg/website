@@ -128,6 +128,7 @@ img { max-width: 100%; }
 }
 .logo-icon { font-size: 24px; }
 .logo-text strong { color: var(--teal-light); }
+.logo-img { height: 42px; width: auto; display: block; vertical-align: middle; border-radius: 4px; }
 .nav { display: flex; align-items: center; gap: 4px; }
 .nav-link {
   padding: 8px 14px;
@@ -454,7 +455,7 @@ img { max-width: 100%; }
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .footer-brand .logo { margin-bottom: 16px; }
-.logo-light { color: white; }
+.logo-light .logo-img { height: 56px; }
 .footer-brand p { color: rgba(255,255,255,0.5); font-size: 14px; line-height: 1.7; margin-bottom: 20px; }
 .footer-badges { display: flex; flex-wrap: wrap; gap: 8px; }
 .badge {
